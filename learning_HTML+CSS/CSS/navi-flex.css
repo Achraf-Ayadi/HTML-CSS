@@ -1,0 +1,74 @@
+@media screen {
+
+    /**
+      * Basisformatierung 
+      */
+    
+    .navi-seiten { 
+      position: -webkit-sticky; 
+      position: sticky; 
+      top: 0; 
+      
+      background: #333; 
+      color: white; 
+      
+      box-shadow: 0 2px 6px rgba(51,51,51,0.3);
+      
+      padding: 0; 
+      margin: 1rem 0; 
+    }
+  
+    
+    /** 
+      * Liste gestalten 
+      */
+    
+    .navi-listen {
+      display: flex; 
+      flex-wrap: wrap; 
+      
+      padding: 0; 
+      margin: 0; 
+    }
+    
+    .navi-listen li {
+      flex: 1 ; 
+      list-style: none; 
+      max-width: 170px;
+    }
+    
+    
+    /**
+      * Links gestalten 
+      */  
+    
+    .navi-listen a {
+      display: block;
+      text-decoration: none;
+      
+      border-right: #fff solid 1px;
+      
+      text-align: center;
+      background: #333;
+      color: white;
+      
+      padding: 0.5rem 0.25rem;
+    }
+    
+    .navi-listen a.sie-sind-hier {
+        background: #666; 
+        color: white; 
+      }  
+      
+      .navi-listen a:hover, 
+      .navi-listen a:focus {
+        background: #666; 
+        color: white; 
+      }
+      
+      .navi-listen a:active {
+        background: #0b74b8; 
+        color: white; 
+      }  
+      
+    } /* Ende @media */   

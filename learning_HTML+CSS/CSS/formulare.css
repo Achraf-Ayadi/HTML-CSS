@@ -1,0 +1,48 @@
+@media screen {
+
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .kontakt-formular input[type= "text"],
+    .kontakt-formular input[type= "email"],
+    .kontakt-formular textarea{
+        width: 16rem;
+        padding: 0.25rem;
+        border: 1px solid rgb(39, 35, 35);
+        border-radius: 1.25rem;
+
+    }
+    .kontakt-daten{
+        background: rgb(243, 239, 239);
+        padding: 1rem;
+
+
+
+
+    }
+    .kontakt-formular button {
+        font-size: inherit;
+        font-family: inherit;
+        letter-spacing: 1px;
+        cursor: pointer;
+        
+        background: #0b74b8;
+        color: white;
+        
+        margin: 1rem 0;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.25rem;
+      }  
+      
+      .kontakt-formular button:hover, 
+      .kontakt-formular button:focus {
+        background: #f5662e; 
+      }
+    
+      .kontakt-formular button:active {
+        background: #d90000; 
+      }
+
+}

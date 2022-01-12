@@ -1,0 +1,58 @@
+@media screen {
+    .seite-content a:link {
+        color: #0B74B8;
+    }
+    .seite-content a:visited {
+        color: #36aade;
+    }
+    .seite-content a:active {
+        color: #d90000;
+    }
+    
+    .seite-content a:hover, .site-content a:focus{
+        color: #F5662E;
+    }
+
+
+    .infoboxen {
+        background-color: #eee;
+        padding: 1rem 0; 
+        margin-bottom:1rem  ; 
+    }
+    .infobox{
+            background-color: white;
+            text-align: center;
+            margin: 1rem 0;
+            padding : 1rem;
+
+
+    }
+    .infobox h3{
+        margin: 0;
+       
+    
+    }
+    
+    .news h3{
+        border-top: rgb(158, 154, 154) solid 1px;
+        padding-top: 1rem;
+    }
+    
+    .kontakt-daten {
+        background: #eee;
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }  
+
+    
+    .kunden-stimme {
+            background-color: #eee;
+            margin: 1rem 0;
+            padding: 1rem;
+            text-align: center;
+            border-left:5px solid #0B74B8;
+        
+
+    }
+    
+}

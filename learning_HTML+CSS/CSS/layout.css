@@ -1,0 +1,92 @@
+@media screen {
+
+.seite-header{
+    margin: 1em;
+
+}
+
+.seite-slogan {
+    margin-top: 0;
+    margin: 0;
+    
+}
+.seite-logo{
+
+    margin-bottom: 0;
+}
+
+body{
+    margin: 0;
+    background: white;
+    min-height: 100vh
+
+}
+.wrapper {
+    min-width: 320px; 
+    max-width: 960px; 
+    padding: 0 1rem; 
+    margin: 0 auto; 
+  }
+  .infoboxen > .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+  }
+  .news .seite-content > .wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      column-gap: 3rem;
+      row-gap: 1rem;
+      grid-template-areas: "intro intro" "col1 col2";
+      
+  }
+  .contact .seite-content{
+      display: flex;
+  }
+  .seite-intro{
+      grid-area: intro;
+  }
+  
+
+  .seite-content {
+    line-height: 1.5;
+    flex: 1;
+}
+.seite-footer {
+
+    background: #333;
+    padding: 0.5em; 
+    margin:  0;
+ 
+}
+
+
+ .contact-seite{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+
+
+.seite-footer a{
+     color:white;
+     text-decoration: none;
+     
+     
+  
+}
+.visually-hidden{
+
+        width: 1px;
+        position: absolute;
+        margin: -1px;
+        padding: 0px;
+        border: 0px;
+        height: 1px;
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+        white-space: nowrap;
+    
+}
+
+}
